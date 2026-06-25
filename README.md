@@ -1,10 +1,10 @@
-<div id="header">
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![LinkedIn][linkedin-shield]][linkedin-url]  
-</div>
+<div id="top"></div>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 
@@ -44,7 +44,7 @@ This is a project for role application purposes.
 * Here you will find some code examples that propose solutions for various use cases.
 * Each directory within this repository will include its own features and details in its own README.md file.
 
-<p align="right">(<a href="#header">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Getting Started
 
@@ -56,7 +56,7 @@ This is a project for role application purposes.
    ```
 2. Open the project using Unity from Unity Hub or directly from the solution file (.SLN)
 
-<p align="right">(<a href="#header">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contributing
 
@@ -71,15 +71,15 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#header">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
 
-Francisco Navas - [LinkedIn](https://www.linkedin.com/in/francisco-navas-sanchez)
-
 Project Link: [https://github.com/FNA-gamedev/cosmic-spell-code-showcase](https://github.com/FNA-gamedev/cosmic-spell-code-showcase)
 
-<p align="right">(<a href="#header">back to top</a>)</p>
+<a href="https://linkedin.com/in/francisco-navas-sanchez/"><img src="images/LinkedIn_icon.png" alt="LinkedIn" width="32" height="32"></a>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/FNA-gamedev/cosmic-spell-code-showcase.svg?style=for-the-badge
 [contributors-url]: https://github.com/FNA-gamedev/cosmic-spell-code-showcase/graphs/contributors
@@ -91,3 +91,4 @@ Project Link: [https://github.com/FNA-gamedev/cosmic-spell-code-showcase](https:
 [issues-url]: https://github.com/FNA-gamedev/cosmic-spell-code-showcase/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/francisco-navas-sanchez/
+
