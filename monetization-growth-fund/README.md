@@ -29,7 +29,6 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
 
@@ -49,10 +48,10 @@ This is the logical framework for a module designed to implement a progression s
 
 ### Built With
 
-* [Unity 2022.3.33f1 LTS](https://unity.com/es/releases/editor/archive) Como motor base de desarrollo de juegos en plataformas móviles.
-* [Mathjis Bakker - Extenject Dependency Injection IOC](https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735) Para la injección de dependencias.
-* [Neuecc - UniRx - Reactive Extensions for Unity](https://assetstore.unity.com/packages/tools/integration/unirx-reactive-extensions-for-unity-17276) Para la gestión de eventos y cambios en tiempo real.
-* [Demigiant - DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) Para la gestión de animaciones en vistas / UI.
+* [Unity 2022.3.33f1 LTS](https://unity.com/es/releases/editor/archive) Core engine for game development on mobile platforms.
+* [Mathjis Bakker - Extenject Dependency Injection IOC](https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735) For dependency injection.
+* [Neuecc - UniRx - Reactive Extensions for Unity](https://assetstore.unity.com/packages/tools/integration/unirx-reactive-extensions-for-unity-17276) Events management and changes in real time.
+* [Demigiant - DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) Animations managements on views / UI.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -69,21 +68,6 @@ This is the logical framework for a module designed to implement a progression s
    git clone https://github.com/FNA-gamedev/cosmic-spell-code-showcase.git
    ```
 2. Open the project using Unity from Unity Hub or directly from the solution file (.SLN)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

@@ -30,7 +30,6 @@
     </li>
 	<li><a href="#mechanics">Mechanics</a></li>
 	<li><a href="#code-arquitecture-and-implementation">Code arquitecture and implementation</a></li>
-    <li><a href="#contributing">Contributing</a></li>
   </ol>
 </details>
 
@@ -49,9 +48,9 @@ This is a basic prototype of a Sudoku game for mobile devices.
 
 ### Built With
 
-* [Unity 2022.3.33f1 LTS](https://unity.com/es/releases/editor/archive) Como motor base de desarrollo de juegos en plataformas móviles.
-* [Mathjis Bakker - Extenject Dependency Injection IOC](https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735) Para la injección de dependencias.
-* [Demigiant - DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) Para la gestión de animaciones en vistas / UI.
+* [Unity 2022.3.33f1 LTS](https://unity.com/es/releases/editor/archive) Core engine for game development on mobile platforms.
+* [Mathjis Bakker - Extenject Dependency Injection IOC](https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735) For dependency injection.
+* [Demigiant - DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) Animations managements on views / UI.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -83,6 +82,10 @@ This is a basic prototype of a Sudoku game for mobile devices.
 		+ Eraser mode 
 			+ Delete either all notes and the single value of a cell.	
 + Future proposals
+	+ Implementation of unit tests
+		+ Due to time constraints, this has not been possible.
+	+ Include CI/CD based on Jenkins
+		+ It has not been implemented during the prototyping phase, but it would be beneficial for an MVP or production phase following the relevant iterations.
 	+ Monetization by ads
 		+ We can use ads to allow user to continue a current game further from the default opportunites or lives implemented.
 	+ Persistent data
@@ -105,28 +108,8 @@ The aim of this project is to show how logic and UI can be separated as well as 
 	+ Each scene has its own SceneContext to control and limit dependency among them. The project context provide us with the transient information we need from one to another.
 + DoTween
 	+ To avoid the use of animators for core UI interaction, we have used DoTween: menu show in/out, button click animation or transitions... we can have "animations" being used with differente elements to avoid animation controllers or clips to multiply exponentially.
-+ Hexagonal arquitecture and modularity
-	+ Code design has been conducted under the code pattern and arquitecture of the hexagonal modules arquitecture: one module its encharge of a complex feature of the game completely isolated from the game and other modules.
-	+ To provide the game with the module funcionality we use the primary interfaces as API to send messages to the module to work with the data.
-	+ In order to connect with another modules for data adquisition, we use the secondary interfaces as contracts or services for information exchange.
-	+ Secondary interfaces or services allows or modules to be customized in every single game within compromising the original implementation.
 + Utils
 	+ As useful tools, there are several scripts extending common classes' functionality which can be also move among project or games with no impact in core and kernel systems.
 		
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
