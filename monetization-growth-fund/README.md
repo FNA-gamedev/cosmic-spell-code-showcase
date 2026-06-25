@@ -1,8 +1,9 @@
 <div id="top"></div>
 
 <div align="center">
-  <a href="https://github.com/FNA-gamedev/cosmic-spell-code-showcase"><img src="images/increasing-bar-graph.png" alt="Logo" width="256" height="256"></a>
-  <h3 align="center">Code Showcase</h3>
+  <a href="https://github.com/FNA-gamedev/cosmic-spell-code-showcase"><img src="../images/increasing-bar-graph.png" alt="Logo" width="256" height="256"></a>
+  <h3 align="center">Growth Fund Module for Monetization</h3>
+  <h4 align="center">(logic skeleton)</h3>
     <p align="center">
       <a href="https://github.com/FNA-gamedev/cosmic-spell-code-showcase"><strong>Explore the docs »</strong></a>
       <br />
@@ -51,7 +52,7 @@ This is the logical framework for a module designed to implement a progression s
 * [Unity 2022.3.33f1 LTS](https://unity.com/es/releases/editor/archive) Como motor base de desarrollo de juegos en plataformas móviles.
 * [Mathjis Bakker - Extenject Dependency Injection IOC](https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735) Para la injección de dependencias.
 * [Neuecc - UniRx - Reactive Extensions for Unity](https://assetstore.unity.com/packages/tools/integration/unirx-reactive-extensions-for-unity-17276) Para la gestión de eventos y cambios en tiempo real.
-* [Demigiant DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) Para la gestión de animaciones en vistas / UI.
+* [Demigiant - DOTween (HOTween v2)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) Para la gestión de animaciones en vistas / UI.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
